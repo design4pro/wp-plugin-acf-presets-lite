@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+
+# node.js & npm
+node_modules
+.nyc_output
+npm-debug.log
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json
+
+# git
+.git
+
+# editor files
+.project
+.settings
+.idea
+.vscode
+.history
+
+# coverage
+coverage
+
+# build
+dist
+tmp
+
+# docker
+.docker/.docker-sync
